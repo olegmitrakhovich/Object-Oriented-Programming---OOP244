@@ -1,0 +1,28 @@
+// OOP244 Workshop 4: Constructors
+// File reflect.txt
+// Version 1.0
+// Date 9/June/2016
+// Author Oleg Mitrakhovich
+// Description
+// workshop 4 reflection.
+//
+//
+// Revision History
+///////////////////////////////////////////////////////////
+// Name               Date          Reason
+//
+///////////////////////////////////////////////////////////
+1)	A safe empty state is when all your class variables are 
+initialized at zero or null. In this particular program a safe empty 
+state is when the constructors executes a function called setEmpty(). I 
+used the safe empty state for this program to actually check if the info 
+in the object is false or not, if the object is in a safe empty state my 
+program knew that the objects information entered was invalid. A safe 
+empty states protects a program from any segmentation faults and also 
+could help against memory leaks.
+2)	Using constructors is great for validation, since there is no 
+way to call up a constructor and it is called automatically upon 
+creation of an object. The fact that a constructor gets called up 
+automatically, saves on lines when you write your program, this makes 
+everything easier to read.  
+
