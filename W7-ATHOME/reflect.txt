@@ -1,0 +1,11 @@
+By: Oleg Mitrakhovich 042 051 078
+1.	It was not necessary to create an isEmpty() class member function in the Superhero class, because that function was already inherited from the Hero class.
+2.	My strength member was automatically set to private.
+3.	Declaring something protected could cause memory leaks and other problems. It all comes down to working on bigger projects and how other developers use your class, if a person doesn’t understand your class 
+	fully and they create a subclass from it, it could mess your base class if its not encapsulated properly.
+4.	My safe empty state would have to be different from what it is now. I would set all double members to zero, but keep the name stored the way it was passed in. I would also change my isEmpty() function to 
+	return true or false based on the values of the numbered variables.
+5.	Because you can’t assign a derived object from SuperHero class (o2) to a base class (Hero) in such a way, since the hierarchy would mess up the assignment process. However, the base class object “o” is 
+	only being assigned what was already being inherited earlier upon creation.
+
+
