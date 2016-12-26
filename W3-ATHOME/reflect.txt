@@ -1,0 +1,12 @@
+By: Oleg Mitrakhovich 042 051 078
+
+1)	When dynamic memory is not deallocated, your program will cause a memory leak. These leaks are not noticeable when working on a small program, however on a big project the memory leaks will slow down the whole program, 
+        due to a waste of resources.
+
+
+2)	The two methods of formatting IO stream data is by using cin or cout also known as input stream and output stream. The data can then be grouped or converted into int, double or chars.
+
+
+3)	Dynamic memory was required because there was no way knowing how many days of weather the user might put in, therefore it would impossible to predict the amount of variables (and also the amount of space) we would need to 
+        store all the information.
+
