@@ -1,0 +1,10 @@
+By: Oleg Mitrakhovich 042 051 071 
+
+Workshop 5 Reflection.
+ 
+1.	The “allocateAndCopy” function takes the area, number and type as parameters, validates the data and copy’s them to appropriate variables. It contains all the logic needed to validate and copy the data. However, the 
+        validation logic is being helped by another function which is called isValid. The “allocateAndCopy” function is also used in the copy constructor and the assignment operator for the phone number class, in order to reuse 
+        logic.
+
+2.	The copy constructor used to copy data into a newly created object. The assignment operator is used to copy data into an ALREADY existing object. Both follow the same logic, but are called in different ways.
+
