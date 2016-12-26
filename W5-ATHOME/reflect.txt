@@ -1,0 +1,15 @@
+Workshop 5: Operator Overload
+
+By: Oleg Mitrakhovich 				042 051 078
+
+1.Friend helper functions break encapsulation. It might not matter as 
+much when a person is writing a small program, however if it is a huge 
+project with many classes and other functions which based heavily on 
+encapsulation, it could become extremely hard to read the ever expanding 
+written program.
+
+2. The compiler just casts the value which is a double value to a 
+nearest double variable in that class. The definition of casting is an 
+object made by pouring molten metal or other material into a mold. So 
+the compiler just looks for a “mold” aka variable to fit that value in.
+
