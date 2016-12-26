@@ -1,0 +1,2 @@
+This bus has total capacity of 78 passengers and has a speed of 30 after acceleration and braking.
+This truck is going 60 after acceleration and braking, and it can be used to tow.
