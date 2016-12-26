@@ -1,0 +1,6 @@
+By: Oleg Mitrakhovich 042 051 078
+
+1.	It is better to place templates into a header file because a template would get compiled at compile-time, not at link-time.
+2.	The different types of Polymorphism are: Casting, Overloading, Compile-Time Polymorphism, Run-time Polymorphism. We used overloading a lot in workshop 9 by redefining the validate function three times, to do different 
+	tasks. The compiler used casting method to call different type of validate function based on the parameters that were passed in.
+
