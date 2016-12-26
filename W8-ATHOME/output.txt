@@ -1,0 +1,12 @@
+Script started on Mon 25 Jul 2016 10:08:32 PM EDT
+oomitrakhovich@matrix:~/summer-opp244/workshop8-athome> w8
+Bus => total capacity: 82
+Bus => speed: 20.2
+Truck => speed: 32.4
+Truck can tow? (true=1 / false=0): 1
+This bus has total capacity of 82 passengers and has a speed of 30.2 after acceleration and braking.
+This truck is going 62.4 after acceleration and braking, and it can be used to tow.
+oomitrakhovich@matrix:~/summer-opp244/workshop8-athome> exit
+exit
+
+Script done on Mon 25 Jul 2016 10:09:01 PM EDT
