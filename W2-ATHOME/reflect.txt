@@ -1,0 +1,10 @@
+By: Oleg Mitrakhovich 042 051 078
+
+Reflection Workshop 2
+
+1.	Most common features of object orientation I used in workshop 2 are Encapsulation and inheritance. I made my AccountNumber class members all private and the data was hidden unless only accessed by a function of that class such as "void display()". I also 
+        reused a lot of my code to do other actions, most useful was the "bool isValid()" function that I can always call upon to see whether the data in that object is valid. 
+
+2.	There is no need for an if statement in the main file, because the setAccountNumber function runs it's own validation using the isValid() function. This function well then return the bool member _validAccNumber value, which in turn will decide what 
+        message will be displayed from the display() function.
+
